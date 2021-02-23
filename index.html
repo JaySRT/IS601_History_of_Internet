@@ -11,6 +11,7 @@
     <!-- Bootstraps core CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
           integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
     <!-- Custom styles for this template -->
     <link rel="stylesheet" href="carousel.css">
     <link rel="stylesheet" href="image_slider.css">
@@ -22,6 +23,7 @@
 <header>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <div class="container-fluid">
+            <a class="navbar-brand" href="#">History of Internet</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
                     aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -32,10 +34,23 @@
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link active" href="#">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Team</a>
+                        <a class="nav-link active" href="#">Team</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            The History of Internet
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="Invention.html">The Invention of the Internet</a>
+                            <a class="dropdown-item" href="Browser_wars.html">Browser Wars</a>
+                            <a class="dropdown-item" href="Internet_search.html">Internet Search</a>
+                            <a class="dropdown-item" href="Dotcom_Bubble.html">Dot-Com Bubble</a>
+                            <a class="dropdown-item" href="People.html">People</a>
+                            <a class="dropdown-item" href="History_of_internet.html">History of Internet</a>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -45,7 +60,7 @@
 
 <!-- Image slider -->
 <main>
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="10000">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="3000">
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -77,7 +92,7 @@
             </div>
             <div class="carousel-item" style="background-image: url(images/dotcom-bubble.png);">
                 <div class="carousel-caption">
-                    <h1>The True Story of the Internet - Dot Com Bubble</h1>
+                    <h2>The True Story of the Internet - Dot Com Bubble</h2>
                 </div>
             </div>
             <div class="carousel-item" style="background-image: url(images/people.jpeg);">
@@ -104,32 +119,32 @@
             <div class="col-lg-4">
                 <img src="images/history.jpeg" alt="History of Internet" width="120" height="120">
                 <h2>History of Internet</h2>
-                <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+                <p><a class="btn btn-secondary" href="History_of_internet.html">View details &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4">
                 <img src="images/invention.jpeg" alt="History of Internet" width="120" height="120">
                 <h2>Invention of the Internet</h2>
-                <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+                <p><a class="btn btn-secondary" href="Invention.html">View details &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4">
                 <img src="images/browser_war.jpg" alt="History of Internet" width="120" height="120">
                 <h2>Browser Wars</h2>
-                <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+                <p><a class="btn btn-secondary" href="Browser_wars.html">View details &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4">
                 <img src="images/search.jpeg" alt="History of Internet" width="120" height="120">
                 <h2>Internet Search</h2>
-                <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+                <p><a class="btn btn-secondary" href="Internet_search.html">View details &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4">
                 <img src="images/dotcom-bubble.png" alt="History of Internet" width="120" height="120">
                 <h2>Dot Com Bubble</h2>
-                <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+                <p><a class="btn btn-secondary" href="Dotcom_Bubble.html">View details &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4">
                 <img src="images/people.jpeg" alt="History of Internet" width="120" height="120">
                 <h2>People</h2>
-                <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+                <p><a class="btn btn-secondary" href="People.html">View details &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
         </div><!-- /.row -->
 
